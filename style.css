@@ -1,0 +1,98 @@
+body { 
+   background-color: #D6E4E5 ;
+   color : navy; 
+   font-family: arial ;
+   text-align: center;
+ }
+
+ h1 { 
+    color : darkblue;
+    font-family: 'Rubik', sans-serif; 
+    font-size: 48px;
+    font-weight: lighter ;
+  }
+
+  h2 { 
+    font-family: 'Cabin', sans-serif;
+  }
+
+  a { 
+    text-decoration: none;
+    color : #6096B4;
+   }
+
+  a:hover { 
+    color : #DC0000
+   }
+
+   .img-circle {
+     border-radius: 50%;
+   }
+
+   div { 
+     padding: 20px;
+     margin: 35px;
+     border-radius: 30px;
+     box-shadow: 0 15px 35px rgba(0,0,0,0.57);
+     background-color: mintcream;
+     width : 500px auto ;
+     padding-top: 10px;
+     border : 3px solid rgba(57, 24, 239, 0.07);
+    }
+
+.container {
+    width: 1000px;
+    margin: 40px auto;
+    background-color: azure;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.57);
+}
+
+
+.btn-blue {
+    background-color: #25316D;
+    padding: 7px 13px;
+    border-radius: 10px;
+}
+
+.list-inline {
+    list-style: none;
+}
+
+.fa-brands {
+  padding: 20px;
+  font-size: 45px;
+}
+
+#introduction p {
+  margin-bottom: 320px;
+}
+
+    
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+ 
+
+
+
+
